@@ -1,7 +1,7 @@
 {
   "name": "@fibjs/mime-db",
   "description": "Media Type Database",
-  "version": "1.20.2",
+  "version": "1.20.3",
   "contributors": [
     "Douglas Christopher Wilson <doug@somethingdoug.com>",
     "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
@@ -34,9 +34,7 @@
     "HISTORY.md",
     "LICENSE",
     "README.md",
-    "db.json",
-    "index.js",
-    ".modules/*"
+    "index.json"
   ],
   "engines": {
     "fibjs": ">= 0.1.7"
