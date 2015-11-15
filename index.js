@@ -8,5 +8,4 @@
  * Module exports.
  */
 
-var fs = require('fs');
-module.exports = JSON.parse(fs.readFile('db.json'));
+module.exports = require('mimedb');
