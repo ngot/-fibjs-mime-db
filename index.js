@@ -8,4 +8,5 @@
  * Module exports.
  */
 
-module.exports = require('./db.json')
+var fs = require('fs');
+module.exports = JSON.parse(fs.readFile('db.json'));
